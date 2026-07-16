@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tree</title>
+
+    <script src="https://unpkg.com/d3@7"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="topbar">
+
+        <input type="text" id="rootInput" placeholder="Enter Root Node" >
+
+        <button onclick="createRoot()" id="createBtn">
+            Create Root
+        </button>
+
+        <button onclick="resetTree()" id="resetBtn" style="display:none;">
+            Reset
+        </button>
+
+        <button id="logoutBtn" class="logout-btn">
+            Logout
+        </button>
+    </div>
+
+    <svg id="tree"></svg>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
