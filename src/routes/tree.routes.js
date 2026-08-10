@@ -6,9 +6,9 @@ import {
     loadData,
     updateNode,
     deleteNode
-} from "../../controllers/tree.controller.js";
+} from "../controllers/tree.controller.js";
 
-import { verifyJWT } from "../../middlewares/auth.middleware.js";
+import { verifyJWT } from "../middlewares/auth.middleware.js";
 
 const router = Router();
 

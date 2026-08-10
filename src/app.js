@@ -29,7 +29,7 @@ import userRouter from "./routes/user.routes.js";
 app.use("/api/v1/users",userRouter);
 app.use("/api/v1/tree", treeRouter);
 
-import { errorHandler } from "../middlewares/error.middleware.js";
+import { errorHandler } from "./middlewares/error.middleware.js";
 app.use(errorHandler);
 
 export default app;

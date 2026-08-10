@@ -1,7 +1,7 @@
-import { TreeNode } from "../src/models/tree.model.js";
-import { asyncHandler } from "../src/utils/asyncHandler.js";
-import { ApiResponse } from "../src/utils/apiResponse.js"
-import { ApiError } from "../src/utils/apiError.js"
+import { TreeNode } from "../models/tree.model.js";
+import { asyncHandler } from "../utils/asyncHandler.js";
+import { ApiResponse } from "../utils/apiResponse.js"
+import { ApiError } from "../utils/apiError.js"
 
 const insertRoot = asyncHandler(async (req, res) => {
     const { name } = req.body;
